@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# If you're using Django migrations:
+*/migrations/
+
+# If you're using PyCharm:
+.idea/
+
+# If you're using VS Code:
+.vscode/
+
+# If you're using virtualenv:
+venv/
+ENV/
+env/
+.env
+.venv
+ENV.bak/
+*.bak
+
+# If you're using pipenv:
+Pipfile.lock
+
+# If you're using celery beat:
+celerybeat-schedule
+
+# Django cache files
+*.cache
+
+# Django media (user-uploaded content)
+media/
+
+# Node.js / React:
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Production files
+build/
+dist/
+.venv
+.venv.local
+.venv.development.local
+.venv.test.local
+.venv.production.local
+
+# Log files
+logs/
+*.log
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+
+# Pytest
+.pytest_cache/
+
+# Static files (can be generated again if needed)
+staticfiles/
+static/
+
+# Generated files
+*.DS_Store
+*.swp
+*.swo
+
+# Docker-related files
+docker-compose.override.yml
